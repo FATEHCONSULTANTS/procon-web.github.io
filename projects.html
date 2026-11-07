@@ -324,49 +324,6 @@
             font-weight: bold;
         }
         
-        .project-content {
-            padding: 25px;
-        }
-        
-        .project-content h3 {
-            color: rgb(0, 157, 255);
-            margin-bottom: 15px;
-            font-size: 1.4rem;
-        }
-        
-        .project-meta {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 15px;
-            font-size: 0.9rem;
-            color: #777;
-        }
-        
-        .project-meta span {
-            display: flex;
-            align-items: center;
-        }
-        
-        .project-meta i {
-            margin-right: 5px;
-            color: rgb(0, 157, 255);
-        }
-        
-        .project-tags {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 15px;
-        }
-        
-        .project-tag {
-            background-color: #f1f1f1;
-            color: #555;
-            padding: 5px 12px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-        }
-        
         /* Stats Section */
         .stats-section {
             background: linear-gradient(135deg, #2c3e50 0%, #4a6491 100%);
@@ -702,34 +659,35 @@
 <body>
     <!-- Navbar -->
     <div class="navbar">
-        <img src="images/logo.jpg" alt="Procon Engineering Logo" />
+        
+        <img src="images/logo.jpg"  alt="Procon Engineering Logo" >
 
         <!-- Hamburger Menu Button -->
         <button class="hamburger-menu" onclick="toggleMenu()">☰</button>
 
         <!-- Navigation Links -->
         <div class="nav-items" id="nav-menu">
-            <a href="index.html">Home</a>
+            <a href="index2.html">Home</a>
             <div class="dropdown">
                 <button class="dropbtn">
                     Services <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content">
-                    <a href="index.html#services">HVAC</a>
-                    <a href="index.html#services">Plumbing</a>
-                    <a href="index.html#services">Electrical</a>
-                    <a href="index.html#services">Framing</a>
-                    <a href="index.html#services">Backfilling</a>
-                    <a href="index.html#services">Flooring</a>
-                    <a href="index.html#services">Drawings</a>
-                    <a href="index.html#services">Drywall</a>
-                    <a href="index.html#services">City Approvals</a>
-                    <a href="index.html#services">Interior Designing</a>
+                    <a href="index2.html#services">HVAC</a>
+                    <a href="index2.html#services">Plumbing</a>
+                    <a href="index2.html#services">Electrical</a>
+                    <a href="index2.html#services">Framing</a>
+                    <a href="index2.html#services">Backfilling</a>
+                    <a href="index2.html#services">Flooring</a>
+                    <a href="index2.html#services">Drawings</a>
+                    <a href="index2.html#services">Drywall</a>
+                    <a href="index2.html#services">City Approvals</a>
+                    <a href="index2.html#services">Interior Designing</a>
                 </div>
             </div>
             <a href="projects.html" style="color: rgb(46, 106, 139); font-weight: bold;">Our Projects</a>
-            <a href="index.html#faq">FAQ</a>
-            <a href="index.html#contact">Contact Us</a>
+            <a href="index2.html#faq">FAQ</a>
+            <a href="index2.html#contact">Contact Us</a>
         </div>
     </div>
 
@@ -762,19 +720,6 @@
                         <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Office Building Construction">
                         <div class="project-category">Commercial</div>
                     </div>
-                    <div class="project-content">
-                        <h3>Downtown Office Complex</h3>
-                        <div class="project-meta">
-                            <span><i class="fas fa-calendar-alt"></i> Jan 2023</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Calgary, AB</span>
-                        </div>
-                        <p>Complete design and construction of a 15-story commercial office building with state-of-the-art HVAC and electrical systems.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">HVAC</span>
-                            <span class="project-tag">Electrical</span>
-                            <span class="project-tag">Modern Design</span>
-                        </div>
-                    </div>
                 </div>
                 
                 <!-- Project 2 -->
@@ -782,19 +727,6 @@
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Modern House">
                         <div class="project-category">Residential</div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Elite Residential Development</h3>
-                        <div class="project-meta">
-                            <span><i class="fas fa-calendar-alt"></i> Aug 2022</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Edmonton, AB</span>
-                        </div>
-                        <p>Luxury residential community featuring 25 custom homes with advanced plumbing, electrical, and smart home systems.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Plumbing</span>
-                            <span class="project-tag">Smart Home</span>
-                            <span class="project-tag">Luxury</span>
-                        </div>
                     </div>
                 </div>
                 
@@ -804,19 +736,6 @@
                         <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Industrial Facility">
                         <div class="project-category">Industrial</div>
                     </div>
-                    <div class="project-content">
-                        <h3>Industrial Manufacturing Plant</h3>
-                        <div class="project-meta">
-                            <span><i class="fas fa-calendar-alt"></i> Mar 2023</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Red Deer, AB</span>
-                        </div>
-                        <p>Design and construction of a 50,000 sq ft manufacturing facility with specialized electrical systems and climate control.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Electrical</span>
-                            <span class="project-tag">HVAC</span>
-                            <span class="project-tag">Manufacturing</span>
-                        </div>
-                    </div>
                 </div>
                 
                 <!-- Project 4 -->
@@ -824,19 +743,6 @@
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Hotel Renovation">
                         <div class="project-category">Renovation</div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Historic Hotel Renovation</h3>
-                        <div class="project-meta">
-                            <span><i class="fas fa-calendar-alt"></i> Nov 2022</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Banff, AB</span>
-                        </div>
-                        <p>Complete renovation of a heritage hotel, preserving historical elements while updating all mechanical and electrical systems.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Historic</span>
-                            <span class="project-tag">HVAC</span>
-                            <span class="project-tag">Preservation</span>
-                        </div>
                     </div>
                 </div>
                 
@@ -846,19 +752,6 @@
                         <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Shopping Mall">
                         <div class="project-category">Commercial</div>
                     </div>
-                    <div class="project-content">
-                        <h3>Regional Shopping Center</h3>
-                        <div class="project-meta">
-                            <span><i class="fas fa-calendar-alt"></i> Jun 2022</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Lethbridge, AB</span>
-                        </div>
-                        <p>Construction of a 200,000 sq ft shopping mall with complex plumbing, electrical, and HVAC systems serving multiple tenants.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Plumbing</span>
-                            <span class="project-tag">Electrical</span>
-                            <span class="project-tag">Commercial</span>
-                        </div>
-                    </div>
                 </div>
                 
                 <!-- Project 6 -->
@@ -866,19 +759,6 @@
                     <div class="project-image">
                         <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" alt="Apartment Building">
                         <div class="project-category">Residential</div>
-                    </div>
-                    <div class="project-content">
-                        <h3>Urban Apartment Complex</h3>
-                        <div class="project-meta">
-                            <span><i class="fas fa-calendar-alt"></i> Feb 2023</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Calgary, AB</span>
-                        </div>
-                        <p>12-story apartment building with 120 units, featuring modern amenities and efficient mechanical systems.</p>
-                        <div class="project-tags">
-                            <span class="project-tag">Multi-family</span>
-                            <span class="project-tag">HVAC</span>
-                            <span class="project-tag">Modern</span>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -911,7 +791,7 @@
     <div class="cta-section">
         <h2>Ready to Start Your Project?</h2>
         <p>Contact us today to discuss how we can bring your vision to life with our expert engineering and construction services.</p>
-        <a href="index.html#contact" class="cta-btn">Get in Touch</a>
+        <a href="index2.html#contact" class="cta-btn">Get in Touch</a>
     </div>
 
     <!-- Footer -->
@@ -921,31 +801,31 @@
                 <div class="footer-column">
                     <h3>Quick Links</h3>
                     <ul class="footer-links">
-                        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-                        <li><a href="index.html#about"><i class="fas fa-info-circle"></i> About Us</a></li>
-                        <li><a href="index.html#services"><i class="fas fa-concierge-bell"></i> Services</a></li>
+                        <li><a href="index2.html"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="index2.html#about"><i class="fas fa-info-circle"></i> About Us</a></li>
+                        <li><a href="index2.html#services"><i class="fas fa-concierge-bell"></i> Services</a></li>
                         <li><a href="projects.html"><i class="fas fa-building"></i> Our Projects</a></li>
-                        <li><a href="index.html#contact"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                        <li><a href="index2.html#contact"><i class="fas fa-envelope"></i> Contact Us</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-column">
                     <h3>Our Services</h3>
                     <ul class="footer-links">
-                        <li><a href="index.html#services"><i class="fas fa-fire"></i> HVAC Installation</a></li>
-                        <li><a href="index.html#services"><i class="fas fa-faucet"></i> Plumbing</a></li>
-                        <li><a href="index.html#services"><i class="fas fa-bolt"></i> Electrical Work</a></li>
-                        <li><a href="index.html#services"><i class="fas fa-hammer"></i> Framing</a></li>
-                        <li><a href="index.html#services"><i class="fas fa-layer-group"></i> Flooring</a></li>
+                        <li><a href="index2.html#services"><i class="fas fa-fire"></i> HVAC Installation</a></li>
+                        <li><a href="index2.html#services"><i class="fas fa-faucet"></i> Plumbing</a></li>
+                        <li><a href="index2.html#services"><i class="fas fa-bolt"></i> Electrical Work</a></li>
+                        <li><a href="index2.html#services"><i class="fas fa-hammer"></i> Framing</a></li>
+                        <li><a href="index2.html#services"><i class="fas fa-layer-group"></i> Flooring</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-column">
                     <h3>Contact Info</h3>
                     <div class="footer-address">
-                        <p><i class="fas fa-map-marker-alt"></i> 7 Westwinds Crescent NE #315<br>Calgary, AB T3J 5H2</p>
+                        <p><i class="fas fa-map-marker-alt"></i> 55 Westwinds Crescent NE <br>Calgary, AB T3J 5H2</p>
                         <p><i class="fas fa-phone"></i> +1 (403) 401-8260</p>
-                        <p><i class="fas fa-envelope"></i> info@proconengineering.com</p>
+                        <p><i class="fas fa-envelope"></i> info@procon-engineering.com</p>
                         <p><i class="fas fa-clock"></i> Mon-Fri: 8AM-5PM</p>
                     </div>
                     <div class="footer-social-links">
@@ -978,7 +858,7 @@
             
             <div class="footer-bottom">
                 <p class="footer-copyright-text">
-                    &copy; 2025 Procon Engineering Inc. | All Rights Reserved | 
+                    &copy; 2026 Procon Engineering Inc. | All Rights Reserved | 
                     <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
                 </p>
             </div>
